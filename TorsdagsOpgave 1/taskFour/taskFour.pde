@@ -2,7 +2,7 @@ String address;
 
 int addition;
 
-double division;
+float division;
 
 String msg;
 
