@@ -6,5 +6,5 @@ første torsdagsopgave
 
 Tobias Hardø
 
-Tobias.hardoe@gmail.com
+cph-th464@stud.ek.dk
 
