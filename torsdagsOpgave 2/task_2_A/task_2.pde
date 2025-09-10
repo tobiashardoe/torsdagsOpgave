@@ -8,18 +8,9 @@ void setup() {
   {
     println("I don't clap my hands");
   }
-  // task 2.b
-  int answer = sum(27, 53);
-  println ("The sum of that is: " + answer);
 }
-
 boolean iAmHappy() {
   // fill out what is missing here:
   // task 2.a
   return happy;
-}
-// task 2.b
-int sum (int a, int b) {
-  int total = a+b;
-  return total;
 }
