@@ -1,5 +1,5 @@
 void setup() {
-  String printWord = "Indsæt ord her";
+  String printWord = "Datamatiker";
   printPartOfWord(printWord,0,3);
   println(printPartOfWord(printWord,0,3));
  println(printPartOfWord(printWord,printWord.length()-4,printWord.length()));

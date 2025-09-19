@@ -9,7 +9,7 @@ void setup() {
   int total = sumOfNumbers(numbers);
   println("Sum of "+numbers.get(0)+" "+numbers.get(1)+" "+numbers.get(2)+": "+total);
   float averageNumber = averageAge(numbers);
-println("The average number is: "+averageNumber);
+  println("The average number is: "+averageNumber);
 
   names.add("Person 1");
   names.add("Person 2");
@@ -35,13 +35,5 @@ void printNames(ArrayList<String> listToPrint) {
 }
 
 float averageAge ( ArrayList<Integer> avgAge) {
-  if (avgAge == null || avgAge.size() == 0) {
-    return 0;
-  }
-  int sum = 0;
-  for ( int num:avgAge){
-  sum+=num;
-  
-  }
-  return sum / avgAge.size();
+  return (float) sumOfNumbers(avgAge)/ avgAge.size();
 }
