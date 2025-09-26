@@ -23,7 +23,7 @@ public class GuessANumber {
         if (sc.hasNextDouble()){
             double guess = sc.nextDouble();
 
-            System.out.println("Found Double value: " + guess);
+            System.out.println("Your guess is: " + guess);
             if (guess == rnd_number){
                 System.out.println("Your guess is correct!");
                 
