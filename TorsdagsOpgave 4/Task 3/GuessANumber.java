@@ -42,7 +42,6 @@ public class GuessANumber {
 
         } else {
             System.out.println("Invalid input!");
-            sc.next();
             makeAGuess();
         }
 

@@ -47,7 +47,7 @@ public class Team{
 		}
 
 		return "Hold: " + this.name +
-		       "\nRang: " + rank +
+		       "\nRang: " + this.rank +
 		       "\nSpillere:\n" + listPlayers;
 		       
 

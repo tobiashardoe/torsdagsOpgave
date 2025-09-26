@@ -14,10 +14,8 @@ actions.add("End game");
 
 
 // task 4.g
-GameMenu start = new GameMenu(actions);
-GameMenu resume = new GameMenu(actions);
-GameMenu pause = new GameMenu(actions);
-GameMenu end = new GameMenu(actions);
+GameMenu menu = new GameMenu(actions);
+
 
 
 // System.out.println(actions.get(2));
@@ -26,7 +24,7 @@ GameMenu end = new GameMenu(actions);
 start.displayMenu();*/
 
 // task 5.d
- String userChoice = start.promptUser();
+ String userChoice = menu.promptUser();
 
 
 // task 5.g
