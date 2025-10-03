@@ -26,7 +26,7 @@ public class Cafe {
             }
             scan.close();
         } catch (FileNotFoundException e) {
-            System.out.println("File not found, check path and filename");
+            System.err.println("File not found, check path and filename");
             e.printStackTrace();
         }
 
